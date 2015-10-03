@@ -27,3 +27,5 @@ else:
 
 # to run program, Run > Run... Prompt will appear.
 
+lancelot = -23
+type(lancelot)
