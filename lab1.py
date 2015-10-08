@@ -8,24 +8,26 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
-letter = raw_input('Type a letter here: ')
+def vowel_or_consonant():
 
-if letter == "a":
-    print("vowel")
-elif letter == "e":
-    print("vowel")
-elif letter == "i":
-    print("vowel")
-elif letter == "o":
-    print("vowel")
-elif letter == "u":
-    print("vowel")
-elif letter == "y":
-    print("sometimes a vowel")
-else:
-    print("consonant")
+    letter = raw_input('Type a letter here: ')
+
+    if letter == "a":
+        print("vowel")
+    elif letter == "e":
+        print("vowel")
+    elif letter == "i":
+        print("vowel")
+    elif letter == "o":
+        print("vowel")
+    elif letter == "u":
+        print("vowel")
+    elif letter == "y":
+        print("sometimes a vowel, sometimes a consonant")
+    else:
+        print("consonant")
 
 # to run program, Run > Run... Prompt will appear.
+# lancelot = -23
+# type(lancelot)
 
-lancelot = -23
-type(lancelot)
