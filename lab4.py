@@ -40,6 +40,6 @@ def bill_of_sale(purchase):
         output_file.write("Total tax: {0:.2f}\n".format(purchase * TOTAL_TAX))
         output_file.write("Total sale: {0:.2f}\n".format(purchase * TOTAL_SALE))
 
-bill_of_sale(10)
+bill_of_sale(9)
 
 # creates a new text file that can be used in different software

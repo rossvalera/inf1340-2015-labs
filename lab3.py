@@ -24,3 +24,9 @@ def days_in_month(month):
         raise ValueError
 
     return days
+
+def days_in_month_exception():
+    try:
+        item = MONTHS_WITH_28_OR_29 or MONTHS_WITH_30 or MONTHS_WITH_31
+    except ValueError:
+        Print ("Whoops")

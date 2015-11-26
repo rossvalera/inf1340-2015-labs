@@ -31,3 +31,5 @@ def test_vowel_or_consonant(capsys):
             vowel_or_consonant()
             (out, err) = capsys.readouterr()
             assert out == "consonant\n"
+
+# comment
